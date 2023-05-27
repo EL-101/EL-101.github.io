@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: 'Play';   
+}
+
+header {
+    background-image: url(Images/Background/christopher-burns-Kj2SaNHG-hg-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 190px;
+    padding-bottom: 190px;
+}
+
+h1 {
+    color: white;  
+}
+
+h1 span { 
+    background-color: rgb(0, 0, 0); 
+    padding: 20px;
+}
+
+
+.title-edit {
+    text-align: center;
+    font-size: 30px;
+}
+
+nav {
+    
+    float: left;
+    margin:0 auto;
+    list-style:none;
+}
+
+p {
+    padding: 10px;
+}
+
+.nav-edit {
+    overflow: hidden;
+    position: absolute;
+    list-style: none;
+    background-color: black;
+    padding: 10px;
+}
+
+.nav-edit li {
+    display: inline-block;
+    align-items: center;
+    
+    padding: 0 10px;
+}
+
+.nav-edit li a {
+    transition: all 0.3s ease 0s;
+    color: white;
+}
+
+.center-tings {
+    align-items: center;
+}
+
+.main-body-text {
+    padding: 25px;
+}
+
+.topic-list {
+    list-style: none;
+}
+
+.topic-list {
+    text-align: center;
+    justify-content: space-between;
+}
+
+.topic-list li {
+    padding: 5px;
+}
