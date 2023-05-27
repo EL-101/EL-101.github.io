@@ -39,10 +39,6 @@ nav {
     list-style:none;
 }
 
-p {
-    padding: 10px;
-}
-
 .nav-edit {
     overflow: hidden;
     position: absolute;
@@ -68,7 +64,11 @@ p {
 }
 
 .main-body-text {
-    padding: 25px;
+    padding: 55px;
+}
+
+p {
+    padding: 20px;
 }
 
 .topic-list {
@@ -81,5 +81,5 @@ p {
 }
 
 .topic-list li {
-    padding: 5px;
+    padding: 15px;
 }
