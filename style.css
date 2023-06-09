@@ -95,7 +95,26 @@ th {
     color: white;
     text-align: center;
 }
-  .center-table {
+
+.center-table {
     margin-left: auto;
     margin-right: auto;
   }
+
+.text-border {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.image-size {
+    max-width: 100%;
+    max-height: 100%;
+}
