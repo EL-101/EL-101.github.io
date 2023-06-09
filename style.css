@@ -87,12 +87,13 @@ p {
 table, th, td {
     border: 2px solid black;
     border-collapse: collapse;
-    padding: 12px;
+    padding: 10px;
   }
 
 th {
     background-color: black;
     color: white;
+    text-align: center;
 }
   .center-table {
     margin-left: auto;
